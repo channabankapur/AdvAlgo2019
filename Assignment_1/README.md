@@ -15,13 +15,14 @@
     (This line can be changed. We are testing on ubuntu 18.04 with g++ version 7.4.0. Make sure it works on that, some of you maybe using OS/compiler specific features.)</li>
     <li>Discussion between yourselves is fine, but not copying. We would be running a plagiarism detection script</li>
     <li>There might be small changes to the assignment, so pull the code from the repo to make sure you're up to date.</li>
-    <li>Deadline - TBD</li>
+    <li>Deadline - 11:59 PM on Sunday, Sep 8th, 2019</li>
     <li>Submission - Would be through a google form.</li>
     <li>What to submit - TBD. (Implementation files and a report)</li>
-    <li>The report can be around (1) pages (in IEEE format? http://ieeeauthorcenter.ieee.org/wp-content/uploads/Transactions-instructions-only.pdf) for each data structure. Write an explanation of your approach and any findings. e.g. theoretical proof and time taken for your actual implementation, whether they match etc. <strike>The report can contain citations to other papers, for e.g. if you're implementing dijkstra's algorithm, there are many ways to do it. You wouldn't be implementing every single method,so you can take the results of other implementations and compare it with that.</strike> 
+    <li>The report should be a maximum of 1 page (in IEEE format http://ieeeauthorcenter.ieee.org/wp-content/uploads/Transactions-instructions-only.pdf) for each data structure. Write an explanation of your approach and any findings. e.g. theoretical proof and time taken for your actual implementation, whether they match etc. <strike>The report can contain citations to other papers, for e.g. if you're implementing dijkstra's algorithm, there are many ways to do it. You wouldn't be implementing every single method,so you can take the results of other implementations and compare it with that.</strike> (The striked out part seemed like it would be too much work, but you're free to do it if you're interested)</br>
     You can plot graphs in python if you want. </br>
     The 1 page is only an upper limit. Brief answers that contain everything are preferred. Don't fill up pages for the sake of it.</li>
-    <li>If you have any queries, put it up in the query sheet -> TBD. This is to reduce the number of mails we would get as keeping track of all of them is hard. It also reduces the number of similar questions asked.</li> 
+    <li>If you have any queries, put it up in the query form -> https://docs.google.com/forms/d/e/1FAIpQLSfm8FUjHU-LBQV8Y-zyN71br2pxadWCVgXQOzE13f6WEwJ5uA/viewform?vc=0&c=0&w=1. This is to reduce the number of mails we would get as keeping track of all of them is hard. It also reduces the number of similar questions asked.</br>
+    To view the response sheet -> https://docs.google.com/spreadsheets/d/1QOkqklgx9INQT6t9Uj-sON3Hq-BJ0-S0fDAjy0taOCc/edit#gid=0</li> 
     <li>Contacting Teaching Assistants<br>
         Arvind Srinivasan - arvind.srini.8@gmail.com<br> 
         Neelesh C A - neeleshca26@gmail.com 
