@@ -10,7 +10,7 @@
     The given tests are known as unit tests. Each test is meant to test only a single functionality at a time. Looking at the code should give you a better idea. You don't have to write any tests yourself, but something like this is done for production code. We have given a sanity check test, which tests really simple functionality, just to check if the bare minimum works, and that there are no compilation issues.<br> 
     You can compile the test and run it like it's any other C++ file, i.e. <br>g++ filename.cpp<br>./a.out
     </li>
-    <li>We would be giving the header files too. In case of the dynamic array question, there are STL classes which do essentially the same functionality.
+    <li>We would be giving the header files too. In case of the dynamic array question, there are STL classes which do essentially the same functionality. Hence, any headers that have to be included should be done in the .hpp file(This is going to be how we would test it). In the implementation .cpp file, only the .hpp file should be imported. The specific headers are mentioned under the data structure. Don't have any interaction with STDOUT in your implementations. It shouldn't interfere</li>  
     <li>With respect to the language, we are using g++ to compile. g++ is used for C++, but compiles C code too. There are some differences between gcc and g++, so we recommend that you use g++ too.<br>
     (This line can be changed. We are testing on ubuntu 18.04 with g++ version 7.4.0. Make sure it works on that, some of you maybe using OS/compiler specific features.)</li>
     <li>Discussion between yourselves is fine, but not copying. We would be running a plagiarism detection script</li>
@@ -33,6 +33,13 @@
         <li>The implementation of dynamic array would be similar to what was done in theory class. The interface class has more details</li>
         <li>The factor of expansion of the table size and the load factor should be customizable. This part should be written in your report, i.e. whether there's a difference or not and any reason for it. It might depend on the architecture of your computer/other things you are not aware of so the results may not match with others.</li>
         <li>The skeletal implementation provided is just for your reference since it's the first time. You can have it however you want as long as it implements all the functions in the interface. The file name must be "dynamic_array_implementation.cpp" and the class name must be "dynamic_array_implementation".</li> 
+        <li>Headers 
+            <ul>
+                <li>iostream</li>
+                <li>stdio.h</li>
+                <li>stdlib.h</li>
+            </ul>
+        </li>
     </ul>
 <h2>Splay Tree</h2>
     <ul>
