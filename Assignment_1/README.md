@@ -10,7 +10,7 @@
     The given tests are known as unit tests. Each test is meant to test only a single functionality at a time. Looking at the code should give you a better idea. You don't have to write any tests yourself, but something like this is done for production code. We have given a sanity check test, which tests really simple functionality, just to check if the bare minimum works, and that there are no compilation issues.<br> 
     You can compile the test and run it like it's any other C++ file, i.e. <br>g++ filename.cpp<br>./a.out
     </li>
-    <li>We would be giving the header files too. In case of the dynamic array question, there are STL classes which do essentially the same functionality. Hence, any headers that have to be included should be done in the .hpp file(This is going to be how we would test it). In the implementation .cpp file, only the .hpp file should be imported. The specific headers are mentioned under the data structure. Don't have any interaction with STDOUT in your implementations. It shouldn't interfere</li>  
+    <li>We would be giving the header files too. In case of the dynamic array question, there are STL classes which do essentially the same functionality. Hence, any headers that have to be included should be done in the .hpp file(This is going to be how we would test it). In the implementation .cpp file, only the .hpp file should be imported. The specific headers are mentioned under the data structure. Don't have any interaction with STDOUT in the implementation files you submit, it would be unnecessarily slow.</li>  
     <li>With respect to the language, we are using g++ to compile. g++ is used for C++, but compiles C code too. There are some differences between gcc and g++, so we recommend that you use g++ too.<br>
     (This line can be changed. We are testing on ubuntu 18.04 with g++ version 7.4.0. Make sure it works on that, some of you maybe using OS/compiler specific features.)</li>
     <li>Discussion between yourselves is fine, but not copying. We would be running a plagiarism detection script</li>
@@ -38,6 +38,7 @@
                 <li>iostream</li>
                 <li>stdio.h</li>
                 <li>stdlib.h</li>
+                <li>stdexcept</li>
             </ul>
         </li>
     </ul>
@@ -45,4 +46,13 @@
     <ul>
         <li>Since there are different ways to implement the splay tree, to ensure consistency, we have specified the method to be followed in the header file.</li>
         <li>For your report, you can consider different sequence of operations, i.e. completely random, more probability for some range of data etc. (This isn't an exhaustive list)</li>
+        <li>Headers 
+            <ul>
+                <li>iostream</li>
+                <li>vector</li>
+                <li>stdio.h</li>
+                <li>stdlib.h</li>
+                <li>stdexcept</li>
+            </ul>
+        </li>
     </ul>
