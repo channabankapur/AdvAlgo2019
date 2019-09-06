@@ -27,7 +27,7 @@ public:
     virtual void append(int) = 0;
 
     //Deletes an element from the end of the array. 
-    //Contraction of the array should happen if necessary. 
+    //Contraction of the array to capacity*increase_factor*load_factor_reduction should happen if necessary. 
     virtual void pop() = 0;
 
     //Returns the element at the index which is the argument. We won't be testing the 
