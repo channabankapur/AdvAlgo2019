@@ -56,3 +56,14 @@
             </ul>
         </li>
     </ul>
+<h2>Submission</h2>
+Submit a zip file whose name is USN.zip</br>If your USN is PES1201700001, the name of the uploaded zip should be PES1201700001.zip</br>
+The zip should extract a folder that is named USN, i.e. PES1201700001.</br>
+Inside the folder, there should be 4 files.
+<ul>
+<li>dynamic_array_implementation.cpp (implemention of dynamic array)</li>
+<li>splay_tree_implementation.cpp (implemention of splay tree)</li>
+<li>dynamic_array.pdf (report of dynamic array)</li>
+<li>splay_tree.pdf (report of splay tree)</li>
+</ul>
+
