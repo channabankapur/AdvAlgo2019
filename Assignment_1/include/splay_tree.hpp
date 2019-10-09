@@ -42,7 +42,7 @@ public:
     //Return a vector of the post order traversal of tree elements
     virtual vector<int> post_order() = 0;
 
-    //Return a vector of the post order traversal of tree elements
+    //Return a vector of the pre order traversal of tree elements
     virtual vector<int> pre_order() = 0;
 };
 
