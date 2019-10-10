@@ -45,3 +45,49 @@
     0.133333333333 0.533333333333 0.333333333333</br>
     An explanation of the output would require going into the solution, hence it is not there.
 
+<h2>Problem 2 - The Messenger</h2>
+
+Time limit - 3 seconds</br>
+    <p>Consider a message ‘m’ of length ‘l’ that contains only lowercase English characters. Your task is to send this message while minimizing its cost.
+
+The cost of sending a message is calculated as follows:
+</p>
+
+<ul>
+
+<li>If you add a new (single) character to the current message ‘c’, the additional cost is ‘x’.</li>
+
+<li>If you try to add a new set of characters (1 or more characters) ’s’ to the current message ‘c’, and ’s’ is a subset of the current message ‘c’, the cost of adding ’s’ is ‘y’.</li>
+
+</ul>
+<p>
+NOTE: ’s’ needs to be a substring of ‘c’, not a subsequence. 
+</p>
+    <b>Input</b></br>
+    The input parameters are x, y, l, and m
+    </br>
+    <b>Output</b></br>
+    An integer - The smallest cost at which you can send the message</br>
+    <b>Constraints</b></br>
+    <ul>
+    <li>1 <= x <= 5000</li>
+    <li>1 <= y <= 5000</li>
+    <li>1 <= l <= 5000</li>
+    </ul>
+    The input will be given as function arguments. The output will be returned as a vector from the function. There will be no  STDIN or STDOUT interaction.</br>
+    Sample input 1</br>
+    3 2 4
+    pqpq</br>
+    Sample output 1</br>
+    8</br>
+    Sample Explanation 1</br>
+    Add 'p', Add 'q', Add 'pq' </br>
+    3 + 3 + 2 = 8</br>
+    Sample input 2</br>
+    3 1 4
+    qqqq</br>
+    Sample output 2</br>
+    5</br>
+    Sample Explanation 2</br>
+    Add 'q', Add 'q', Add 'qq' </br>
+    3 + 1 + 1 = 5</br>
